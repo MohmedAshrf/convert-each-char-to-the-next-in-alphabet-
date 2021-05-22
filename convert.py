@@ -9,7 +9,7 @@ def convert(string):
                 char = char.upper()
             result += char
         else:
-            result += i
+            result += chr(i)
     return(result)
     
 print(convert(input("Enter a string to be manipulated")))
